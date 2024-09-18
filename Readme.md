@@ -1,4 +1,4 @@
-# CV Project
+#  Developer Resume(Curriculum Vitae)
 ![William's CV](William-CV-1.png)
 
 This repository contains the source code for my CV, which is written in LaTeX.
