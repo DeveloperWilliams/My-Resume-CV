@@ -1,0 +1,167 @@
+%-------------------------
+% Resume in LateX
+% Author : Wanyama William Achuchi
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate PDF is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+  \textbf{#1} & #2 \\
+  \textit{\small#3} & \textit{\small #4} 
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://github.com/DeveloperWilliams}{\Large Wanyama William Achuchi}} & Email: \href{mailto:archywilliams2@gmail.com}{archywilliams2@gmail.com}\\
+  \href{https://github.com/DeveloperWilliams}{github.com/DeveloperWilliams} & Mobile: \href{tel:+254708966189}{+254-708-966189} \\
+  & \href{https://www.linkedin.com/in/achuchi/}{linkedin.com/in/achuchi} \\
+\end{tabular*}
+
+%-----------PROFESSIONAL SUMMARY-----------------
+\section{Professional Summary}
+  \small{
+    Fullstack developer with hands-on experience in MERN stack development. Proven ability to design, implement, and deploy full-stack applications, ranging from e-commerce platforms to dynamic content management systems. Focused on delivering clean, maintainable code and seamless user experiences. Strong communication and teamwork skills in agile environments.
+  }
+
+%-----------SKILLS-----------------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Languages}{JavaScript, TypeScript, Python, HTML, CSS}
+    \resumeSubItem{Frameworks}{React, Node.js, Express, Next.js}
+    \resumeSubItem{Databases}{MongoDB, MySQL}
+    \resumeSubItem{Tools}{Git, Docker, Jenkins, Postman}
+    \resumeSubItem{Cloud}{AWS, DigitalOcean}
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Africa International University}{Nairobi, Kenya}
+      {Bachelor of Science in Information Technology}{2022 -- 2025}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Xmpressa Solutions}{Remote}
+      {Part-time Fullstack Engineer}{Apr 2024 -- Present}
+      \resumeItemListStart
+        \resumeItem{MERN Stack Development}
+          {Worked on full-stack development, focusing on designing and implementing RESTful APIs, responsive user interfaces, and database management using the MERN stack. Collaborated closely with product managers and designers to ensure features met client specifications.}
+        \resumeItem{Team Collaboration}
+          {Actively participated in agile processes, contributing to sprint planning and daily stand-ups. Helped troubleshoot issues, reviewed code for peers, and mentored junior developers.}
+        \resumeItem{Optimizing Performance}
+          {Enhanced performance and security of APIs, leading to a 20\% reduction in response time and improved security measures.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Willsoft Technologies}{Nairobi, Kenya}
+      {Fullstack Developer}{Mar 2023 -- Apr 2024}
+      \resumeItemListStart
+        \resumeItem{E-commerce Platform Development}
+          {Developed and deployed an end-to-end e-commerce platform using the MERN stack, providing features such as user account management, product browsing, cart management, and payment integration. Implemented the admin dashboard for inventory and order management, enhancing operational efficiency.}
+        \resumeItem{API and Database Design}
+          {Designed and integrated REST APIs for smooth communication between the frontend and backend, utilizing MongoDB for database management. Focused on scalability to support increasing traffic.}
+        \resumeItem{Payment Gateway Integration}
+          {Integrated third-party payment gateways such as PayPal, Stripe and M-Pesa, ensuring secure and efficient transaction handling.}
+        \resumeItem{Blog Platform Development}
+          {Built a blog platform from the ground up, featuring user authentication, post creation, editing, and deletion functionalities. Implemented role-based access control (RBAC) to allow differentiated permissions for administrators and regular users.}
+        \resumeItem{Continuous Integration/Deployment (CI/CD)}
+          {Set up CI/CD pipelines using Jenkins and Docker for automated testing and deployment, reducing the release cycle time by 30\%.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{MERN Stack E-Commerce Platform}
+      {Developed a full-stack e-commerce web application with features like user authentication, product browsing, cart management, and integrated payment processing. (2023)}
+    \resumeSubItem{MERN Blog Platform}
+      {Designed and implemented a blog system where users can register, create posts, and engage with others through comments and likes. (2023)}
+    \resumeSubItem{Portfolio Website}
+      {Built a personal portfolio website using React.js to showcase projects, skills, and experience. (2022)}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
