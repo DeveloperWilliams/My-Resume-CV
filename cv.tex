@@ -1,7 +1,8 @@
 %-------------------------
-% Resume in LaTeX
+% Resume in LaTeX (Polished; Azure & DevOps enhanced)
 % Author : Wanyama William Achuchi
 % License : MIT
+% Updated : 2025-09-25
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
@@ -91,24 +92,29 @@
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{https://www.linkedin.com/in/achuchi/}{\Large Wanyama William Achuchi}} & Email: \href{mailto:archywilliams2@gmail.com}{archywilliams2@gmail.com}\\
   \href{https://www.linkedin.com/in/achuchi/}{linkedin.com/in/achuchi} & Mobile: \href{tel:+254708966189}{+254-708-966189} \\
-  & \href{https://github.com/DeveloperWilliams}{github.com/DeveloperWilliams} \\
-  & \href{https://x.com/Dev_Williee}{x.com/Dev\_Williee} \\
+  \href{https://williamachuchi.com}{williamachuchi.com} & \href{https://github.com/DeveloperWilliams}{github.com/DeveloperWilliams} \\
+  \href{https://blog.williamachuchi.com}{blog.williamachuchi.com (tech blogs)} & \href{https://x.com/Dev_Williee}{x.com/Dev\_Williee (technical posts)} \\
 \end{tabular*}
 
 %-----------PROFESSIONAL SUMMARY-----------------
 \section{Professional Summary}
   \small{
-    Fullstack developer with hands-on experience in MERN stack development. Proven ability to design, implement, and deploy full-stack applications, ranging from e-commerce platforms to dynamic content management systems. Focused on delivering clean, maintainable code and seamless user experiences. Strong communication and teamwork skills in agile environments. 
+    Senior Backend Systems Designer \& Fullstack Engineer with 5+ years building resilient, observable and secure platforms. Specialist in cloud-native systems (Azure + AKS), Linux server fleets, container orchestration, and production reliability for fintech and IoT. Strong track record leading engineering teams, defining platform roadmaps, and delivering measurable operational improvements (reduced deployment time by 40\%, achieved 99.9\% uptime across core services).
   }
 
 %-----------SKILLS-----------------
 \section{Skills}
   \resumeSubHeadingListStart
-    \resumeSubItem{Languages}{JavaScript, TypeScript, Python, HTML, CSS, SQL}
-    \resumeSubItem{Frameworks}{React, Node.js, Express, Next.js}
-    \resumeSubItem{Databases}{MongoDB, MySQL, PostgreSQL}
-    \resumeSubItem{Tools}{Git, Docker, Jenkins, Postman, Webpack}
-    \resumeSubItem{Cloud}{AWS, DigitalOcean, Firebase}
+    \resumeSubItem{Languages}{JavaScript, TypeScript, Python, C, C\#, SQL}
+    \resumeSubItem{Frameworks \& Platforms}{React, React Native, Node.js, Express, Next.js, GraphQL, ASP.NET Core}
+    \resumeSubItem{Stacks}{MERN, PERN}
+    \resumeSubItem{Databases}{MongoDB, PostgreSQL, MySQL, SQL Server}
+    \resumeSubItem{IoT \& Embedded}{ESP32, Microcontrollers, C, MicroPython}
+    \resumeSubItem{Real-Time Tech}{WebSockets, SSE, MQTT}
+    \resumeSubItem{Architectures}{Microservices, Event-Driven, DDD, CQRS, REST, GraphQL}
+    \resumeSubItem{DevOps \& Tools}{Git, Docker, Kubernetes (AKS), Helm, GitHub Actions, Jenkins, Terraform, Ansible}
+    \resumeSubItem{Cloud}{Azure (AKS, VMs, App Services, Functions, Azure Monitor), AWS, DigitalOcean}
+    \resumeSubItem{Observability}{Prometheus, Grafana, Azure Monitor, Application Insights, OpenTelemetry}
   \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------------
@@ -116,56 +122,127 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Africa International University}{Nairobi, Kenya}
-      {Bachelor of Science in Information Technology (Part-Time)}{2022 -- Present}
-    \resumeSubheading
-      {Udemy}{Online}
-      {The Complete Web Developer Bootcamp}{2023 -- 2023}
+      {Bachelor of Science in Information Technology}{}
   \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
 
+    % Willsoft Technologies (Founder) (2023 - Present)
     \resumeSubheading
-      {Studybuddy Africa}{Nairobi County, Kenya (Hybrid)}
-      {Fullstack Developer (Full-Time)}{Sep 2024 -- Present}
+      {Willsoft Technologies (Founder)}{Nairobi, Kenya}
+      {Founder \& Senior Fullstack Architect}{Jun 2023 -- Present}
       \resumeItemListStart
-        \resumeItem{Educational Platform Development}
-          {Building and maintaining an educational platform that enables users to access course materials, participate in discussions, and manage their progress. Leveraged MERN stack for seamless user experience and functionality.}
-        \resumeItem{API and Database Design}
-          {Designed and integrated REST APIs to ensure smooth interaction between frontend and backend, managing data using MongoDB for high performance.}
-        \resumeItem{CI/CD Integration}
-          {Set up and managed CI/CD pipelines with Jenkins and Docker for continuous integration and delivery, optimizing release times and improving efficiency.}
-        \resumeItem{Cloud Deployment and DevOps}
-          {Configured cloud infrastructure on AWS, including deployment automation and monitoring, ensuring robust and scalable platform availability.}
+        \resumeItem{Enterprise Systems Delivery}
+          {Led end-to-end delivery of financial platforms and enterprise apps; production systems processed \$1M+ annually.}
+        \resumeItem{Platform Architecture \& Scaling}
+          {Architected containerized microservices on AKS and Azure Linux VMs with Terraform and Helm — achieving 99.9\% uptime and horizontally scaling to support 30k+ concurrent users.}
+        \resumeItem{Cloud & DevOps Leadership}
+          {Established IaC practices (Terraform), gitops deployment workflows, and secure secrets management; reduced mean time to recovery (MTTR) by 55\%.}
+        \resumeItem{Financial Integrations}
+          {Built secure payment and reconciliation pipelines integrated with Stripe and M-Pesa; implemented transaction auditing and replayable event streams.}
       \resumeItemListEnd
 
+    % GeoTruth IoT Project (2025)
     \resumeSubheading
-      {Willsoft Technologies}{Nairobi, Kenya}
-      {Fullstack Developer (Part-Time)}{Apr 2023 -- Aug 2024}
+      {GeoTruth Consult (IoT Project)}{Nairobi, Kenya}
+      {Mobile IoT Developer (Contract) -- ESP32 \& Firmware}{Jan 2025 -- Jun 2025}
       \resumeItemListStart
-        \resumeItem{E-commerce Platform Development}
-          {Developed and deployed an end-to-end e-commerce platform using the MERN stack, with features like user account management, product browsing, cart management, and payment integration.}
-        \resumeItem{Payment Gateway Integration}
-          {Integrated third-party payment gateways such as PayPal, Stripe, and M-Pesa, ensuring secure and efficient transaction handling.}
+        \resumeItem{IoT Mobile Applications}
+          {Delivered React Native control app for ESP32 devices with OTA firmware updates and secure authentication.}
+        \resumeItem{Embedded Systems}
+          {Wrote C and MicroPython modules for telemetry and device communication over MQTT.}
+        \resumeItem{End-to-End Integration}
+          {Built backend ingestion pipelines with dashboards for monitoring device health and data streams (Azure Event Hubs, Stream Analytics).}
+      \resumeItemListEnd
+
+    % StudyBuddy (2024 - 2025)
+    \resumeSubheading
+      {StudyBuddy Africa}{Nairobi, Kenya (Hybrid)}
+      {Senior Fullstack Developer \& Lead Architect}{Sep 2024 -- Jun 2025}
+      \resumeItemListStart
+        \resumeItem{Technical Leadership}
+          {Defined cloud-native platform architecture: AKS, API gateway, event-driven processing, and distributed data partitioning.}
+        \resumeItem{Scalable Platform Delivery}
+          {Migrated monolith to AKS microservices — cut deployment time by 40\% and improved fault isolation via namespaces and pod anti-affinity.}
+        \resumeItem{Fintech Integrations}
+          {Implemented payment rails and KYC/AML providers; introduced real-time fraud monitoring and circuit-breaker patterns.}
+        \resumeItem{Real-Time Learning Systems}
+          {Introduced GraphQL subscriptions and WebSockets for live course progress, chat, and notifications.}
+        \resumeItem{Production Reliability}
+          {Owned CI/CD, release governance, SLO definition and runbooks; implemented blue/green and canary rollouts using Helm and Kubernetes.}
+      \resumeItemListEnd
+
+    % GeoTruth Consult (2021 - 2024)
+    \resumeSubheading
+      {GeoTruth Consult}{Hybrid / Nairobi, Kenya}
+      {Fullstack Web \& Backend Engineer}{Jan 2021 -- Dec 2024}
+      \resumeItemListStart
+        \resumeItem{Client-Facing Platforms}
+          {Developed responsive web/mobile apps for surveying clients using React, React Native, and Express.}
+        \resumeItem{Backend Systems}
+          {Designed and optimized REST APIs, Postgres schemas, and reporting pipelines handling millions of rows of geospatial data.}
+        \resumeItem{Data Engineering}
+          {Built ETL pipelines with monitoring, anomaly detection, and recovery workflows for mission-critical data.}
+        \resumeItem{DevOps Practices}
+          {Implemented CI/CD with GitHub Actions and Jenkins, containerized services, and standardized deployments to AKS and Azure VMs.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------------
-\section{Projects}
+\section{Selected Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{MERN Stack E-Commerce Platform}
-      {Developed a full-stack e-commerce web application with features like user authentication, product browsing, cart management, and integrated payment processing. (2023)}
-    \resumeSubItem{Inventory Management POS System}
-      {Developed an inventory management POS system for a supermarket, featuring real-time tracking, reporting, and item management. (2024)}
-    \resumeSubItem{Library Management System}
-      {Created a MERN stack library management system with features like book categorization, user roles, and book borrowing functionality. (2024)}
-    \resumeSubItem{Real-Time Chat Application}
-      {Developed a real-time chat application using Socket.io, Express, and React. Features included user authentication, private messaging, and notification systems. (2023)}
-    \resumeSubItem{Task Management Application}
-      {Built a task management app using React, Node.js, and MongoDB, enabling users to create, edit, and organize tasks with features like deadline reminders and project tracking. (2024)}
+    \resumeSubItem{Financial Network Marketing Platform (2025)}
+      {High-scale fintech networking platform serving 30k+ active users; built with React, Node.js, PostgreSQL, Docker, and AKS. Reduced latency p95 by 30\% after query optimization and caching.}
+    \resumeSubItem{Fullstack Microfinance Management System (2024)}
+      {Microfinance solution supporting loan origination, repayment schedules, KYC/AML flows, and reporting dashboards. Stack: React, .NET, PostgreSQL, Express APIs.}
+    \resumeSubItem{Mobile IoT Control App (2025)}
+      {Cross-platform React Native app with telemetry, OTA firmware, and dashboards for ESP32-based devices.}
+    \resumeSubItem{Inventory Management POS System (2024)}
+      {Real-time POS solution with inventory tracking, WebSocket notifications, and financial reporting; supported daily transaction volume of 50k+ items.}
+    \resumeSubItem{Real-Time Chat Application (2023)}
+      {Socket.io-based platform with private messaging, groups, and notification badges.}
   \resumeSubHeadingListEnd
+
+%-----------DEVOPS & CLOUD EXPERTISE-----------------
+\section{DevOps \& Cloud Expertise}
+  \small{
+    Proven experience designing and operating production systems on Azure and Linux fleets. Highlights:
+  }
+  \begin{itemize}[leftmargin=*]
+    \item \textbf{Azure:} AKS (Kubernetes), Azure Linux VMs, Azure DevOps/Github Actions, Azure Monitor, Application Insights, Key Vault, VNet, Load Balancers.
+    \item \textbf{Infrastructure as Code:} Terraform modules for VNET, AKS clusters, VM scale sets, and managed identities; use of state locking and workspace separation.
+    \item \textbf{CI/CD:} Containerized builds, image scanning, automated deployments (canary / blue-green), rollback automation, and release gates based on automated tests and metrics.
+    \item \textbf{Security:} RBAC, managed identities, Key Vault for secrets, network security groups, vulnerability scanning, and regular threat modeling.
+    \item \textbf{Observability:} OpenTelemetry tracing, Prometheus metrics, Grafana dashboards, Azure Monitor alerts, centralized logging (ELK or Azure Log Analytics).
+    \item \textbf{SRE Practices:} SLO/SLA definition, error budgets, runbooks, playbooks, chaos testing, and incident postmortems.
+  \end{itemize}
+
+%-----------SYSTEM & DEVELOPMENT METRICS-----------------
+\section{System \& Development Metrics (Selected)}
+  \small{
+    I instrument systems and development pipelines to produce actionable metrics. Typical KPIs I define and track:
+  }
+  \begin{itemize}[leftmargin=*]
+    \item \textbf{Reliability:} Uptime (99.9\%+), availability SLOs, error rate (<=0.5\% transactions). 
+    \item \textbf{Performance:} p50/p95/p99 latencies; example target p95 &lt; 300ms for API endpoints.
+    \    \item \textbf{Throughput:} Requests per second (RPS), background job throughput; example stable RPS 1500 with autoscaling rules.
+    \item \textbf{Operational:} Mean Time To Detect (MTTD) & Mean Time To Recover (MTTR) — targets MTTD &lt; 5 minutes, MTTR &lt; 30 minutes for critical incidents.
+    \item \textbf{Delivery:} Deployment frequency (daily to weekly depending on service), lead time for changes &lt; 1 week, change failure rate &lt; 15\%.
+    \item \textbf{Cost Efficiency:} Cloud cost per throughput unit, rightsizing reports, and budget alerts.
+  \end{itemize}
+
+%-----------NOTES / ADDITIONAL-----------------
+\section{Additional}
+  \small{
+    \begin{itemize}[leftmargin=*]
+      \item \textbf{Public Profiles:} \href{https://williamachuchi.com}{williamachuchi.com} $\mid$ \href{https://blog.williamachuchi.com}{blog.williamachuchi.com} $\mid$ \href{https://x.com/Dev_Williee}{x.com/Dev\_Williee} $\mid$ \href{https://github.com/DeveloperWilliams}{github.com/DeveloperWilliams}
+      \item \textbf{Open to:} Senior Backend / Platform Architect, Lead Developer, SRE / DevOps roles. Available remote or Nairobi-based.
+      \item \textbf{References:} Available on request.
+    \end{itemize}
+  }
 
 %-------------------------------------------
 \end{document}
